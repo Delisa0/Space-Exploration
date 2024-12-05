@@ -1,0 +1,47 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(15, 15, 29);
+    color: rgb(35, 53, 93);
+}
+h1   {
+    color: rgb(184, 215, 241);   
+}
+a {
+    color: rgb(20, 22, 77);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(56, 19, 151);
+    text-decoration: underline;
+}
+ul > li {
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(84, 110, 193);
+}
+h1 + p {
+    background-color: rgb(43, 36, 85);
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover {
+    background-color: rgb(44, 33, 98);
+    color: rgb(57, 57, 187);
+    text-shadow: 2px 2px 2px rgb(70, 165, 209);
+}
+p:not(:first-of-type) {
+    font-weight: bold;
+}
+ul li::after {
+    content:"🛰️";
+}
+a::after {
+    content: "🌌";
+}
+p::first-letter {
+    font-size: larger;
+    color: rgb(74, 91, 122);
+}
+h1::first-letter{
+    font-size: larger;
+    color: rgb(216, 49, 49);
+}
